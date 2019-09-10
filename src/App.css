@@ -21,4 +21,40 @@
     font-size: 5.0rem;
   }
 
+  .App {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .App button {
+      border-radius: 80px;
+      width: 80px;
+      height: 80px;
+      font-size: 2.5rem;
+  }
+
+  .buttonsLeft {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    float: left;
+  }
+
+  .specials {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .numberButtons {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .buttonsRight {
+      display: flex;
+      flex-direction: column;
+      width: 150px;
+  }
+
   
