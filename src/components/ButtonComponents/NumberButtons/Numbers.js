@@ -9,7 +9,7 @@ import NumberButton from './NumberButton';
 
 const Numbers = (props) => {
   // STEP 2 - add the imported data to state
-  const numbers = {numbers};
+  const [numberState, setNumberState] = useState(numbers);
 
   return (
         <div>
