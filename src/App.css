@@ -20,3 +20,10 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .numberButton {
+      background: #a51f37;
+      color: #1c4378;
+      box-sizing: border-box;
+      display: flex;
+  }
