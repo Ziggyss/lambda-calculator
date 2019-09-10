@@ -5,15 +5,14 @@ import { operators } from './data.js';
 import OperatorButton from './OperatorButton';
 //Import your array data to from the provided data file
 
-const Operators = (operators) => {
+const Operators = () => {
  
   // STEP 2 - add the imported data to state
-  const { operators } = props; 
   return (
     <div>
       {
         operators.map(
-          (operator) => (
+          (operators) => (
             <OperatorButton
               key={operators}
               name={operators}
@@ -23,3 +22,5 @@ const Operators = (operators) => {
     </div>
   );
 };
+
+export default Operators;

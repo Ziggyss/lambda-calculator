@@ -1,7 +1,7 @@
 import React from "react";
 
 const OperatorButton = (props) => {
-  const {operator} = props.operator;
+  const operator = props.operator;
   return (
 
     <div>
